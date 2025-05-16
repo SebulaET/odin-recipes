@@ -1,4 +1,25 @@
+* {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: arial, 'Times New Roman', Georgia;
+}
+
 h1 {
     color: lightpink;
-    background-color: aliceblue;
+    width: fit-content;
+    margin-left: 30px;
+}
+
+a:link {
+    color: darkseagreen;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
+
+h3 {
+    color: darksalmon;
+    width: fit-content;
+    padding:5px;
 }
