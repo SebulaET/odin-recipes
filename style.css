@@ -9,7 +9,9 @@ h1 {
     width: fit-content;
     margin-left: 30px;
 }
+
 /* Images */
+
 .RecipePhoto {
     border-style: solid;
     border-color: peachpuff;
@@ -19,7 +21,9 @@ h1 {
 .EndPhotos {
     display: block
 }
+
 /* Links */
+
 a:link {
     color: darkseagreen;
 }
@@ -27,17 +31,20 @@ a:link {
 a:visited {
     color: darkolivegreen;
 }
+
 /* Subheaders */
+
 h3 {
     color: darksalmon;
     width: fit-content;
     padding:5px;
 }
 
-/* Lists */
+/* Adding border to list here but for some reason the numbers aren't included in content for box...
+    Problem for another day... */
+
 ol {
     display: inline-block;
-    padding: 5px;
-    border: 3px solid;
-    margin-left: 10px;
+    padding: 20px;
+    border: 3px solid #FFB6C1;
 }
