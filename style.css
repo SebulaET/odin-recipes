@@ -10,7 +10,10 @@ h1 {
     margin-left: 30px;
 }
 
-/* Start doing img stuff here, maybe put them under [div]'s? */
+.RecipePhoto {
+    border-style: solid;
+    border-color: peachpuff;
+}
 
 a:link {
     color: darkseagreen;
