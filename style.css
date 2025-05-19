@@ -9,12 +9,12 @@ h1 {
     width: fit-content;
     margin-left: 30px;
 }
-
+/* Images */
 .RecipePhoto {
     border-style: solid;
     border-color: peachpuff;
 }
-
+/* Links */
 a:link {
     color: darkseagreen;
 }
@@ -22,7 +22,7 @@ a:link {
 a:visited {
     color: darkolivegreen;
 }
-
+/* Subheaders */
 h3 {
     color: darksalmon;
     width: fit-content;
