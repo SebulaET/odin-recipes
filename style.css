@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: rgb(231, 237, 214);
     font-family: arial, 'Times New Roman', Georgia;
 }
 
@@ -11,10 +11,9 @@ h1 {
 }
 
 /* Images */
-
 .RecipePhoto {
     border-style: solid;
-    border-color: peachpuff;
+    border-color: rgb(255, 212, 212);
     display: inline;
 }
 
@@ -23,7 +22,6 @@ h1 {
 }
 
 /* Links */
-
 a:link {
     color: darkseagreen;
 }
@@ -33,7 +31,6 @@ a:visited {
 }
 
 /* Subheaders */
-
 h3 {
     color: darksalmon;
     width: fit-content;
@@ -43,8 +40,18 @@ h3 {
 /* Adding border to list here but for some reason the numbers aren't included in content for box...
     Problem for another day... */
 
+/* Lists */
 ol {
     display: inline-block;
     padding: 20px;
     border: 3px solid #FFB6C1;
+    background-image: linear-gradient(lightpink, darkseagreen, lightpink);
+}
+
+ul {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid #FFB6C1;
+    background-image: linear-gradient(lightpink, darkseagreen, lightpink);
+    margin: 5px;
 }
